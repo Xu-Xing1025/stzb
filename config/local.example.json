@@ -1,0 +1,26 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8765
+  },
+  "storage": {
+    "database": "data/app.sqlite3",
+    "captures": "data/captures",
+    "backups": "data/backups"
+  },
+  "collector": {
+    "emulator": "mumu",
+    "adb_executable": "",
+    "device_serial": "",
+    "expected_width": null,
+    "expected_height": null,
+    "automatic_navigation_enabled": false
+  },
+  "model": {
+    "provider": "",
+    "base_url": "",
+    "model": "",
+    "api_key_env": "STZB_MODEL_API_KEY",
+    "allow_cloud_images": false
+  }
+}
