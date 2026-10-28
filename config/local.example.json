@@ -4,9 +4,15 @@
     "port": 8765
   },
   "storage": {
-    "database": "data/app.sqlite3",
     "captures": "data/captures",
     "backups": "data/backups"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "database": "stzb_assistant"
   },
   "collector": {
     "emulator": "mumu",

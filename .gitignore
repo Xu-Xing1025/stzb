@@ -7,6 +7,8 @@ dist/
 .env.*
 !.env.example
 config/local.json
+config/model.local.json
+config/model.local.json.*
 data/
 work/
 *.log
